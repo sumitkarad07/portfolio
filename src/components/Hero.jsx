@@ -203,9 +203,9 @@ export default function Hero() {
 
                     <div className="space-y-1 pt-1">
                       <p className="text-slate-400">
-                        <span className="text-cyan-400">sumit@dev:~$</span> npm run build:ecommerce-platform
+                        <span className="text-cyan-400">sumit@dev:~$</span> npm run build:smartcheff-ai
                       </p>
-                      <p className="text-sky-300">➜ MERN E-Commerce Backend: REST API Online [Ready]</p>
+                      <p className="text-sky-300">➜ SmartcheFF AI Backend: Gemini API Online [Ready]</p>
                       <p className="text-purple-300">➜ Machine Learning Model: Trained & Integrated</p>
                     </div>
 

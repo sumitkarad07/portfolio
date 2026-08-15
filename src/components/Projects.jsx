@@ -8,16 +8,12 @@ import {
   Database, 
   Sparkles, 
   X, 
-  Plus, 
-  ArrowUpRight,
-  ShoppingBag,
   ShieldCheck,
   Zap,
   Lock
 } from 'lucide-react';
 import { GithubIcon as Github } from './Icons';
 import { projects } from '../data/projects';
-import { personalData } from '../data/personal';
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -217,28 +213,6 @@ export default function Projects() {
           </div>
         )}
 
-        {/* Architecture Note for Adding Future Projects */}
-        <div className="mt-12 p-6 rounded-2xl bg-slate-950/80 border border-slate-800/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <div className="space-y-1">
-            <div className="flex items-center gap-2 text-sm font-bold text-white">
-              <Plus className="w-4 h-4 text-cyan-400" />
-              <span>Extensible Project Showcase Architecture</span>
-            </div>
-            <p className="text-xs text-slate-400 max-w-2xl">
-              Need to showcase your next Data Science or Full-Stack project? Simply append a new project object to <code className="text-cyan-400 bg-slate-900 px-1 py-0.5 rounded">src/data/projects.js</code>. The UI automatically renders cards, tech badges, and modal views without code modifications.
-            </p>
-          </div>
-
-          <a
-            href={personalData.socials.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="shrink-0 px-4 py-2 rounded-xl bg-slate-900 border border-slate-800 text-cyan-400 hover:border-cyan-500/50 text-xs font-mono flex items-center gap-1.5"
-          >
-            <span>Explore All Repos</span>
-            <ArrowUpRight className="w-3.5 h-3.5" />
-          </a>
-        </div>
 
       </div>
 

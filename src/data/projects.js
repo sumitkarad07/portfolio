@@ -55,47 +55,49 @@ Features built into the architecture:
     ]
   },
   {
-    id: "mern-ecommerce",
-    title: "MERN Stack E-Commerce Platform",
-    subtitle: "Full-Featured Online Retail & Admin Management Web Application",
-    description: "A feature-rich, full-stack e-commerce platform built with the MERN stack (MongoDB, Express, React, Node.js). Includes JWT authentication, comprehensive product catalog, dynamic cart management, user order tracking, reviews system, wishlist, and an extensive admin dashboard for product & user management.",
-    longDescription: `This application provides an end-to-end shopping experience powered by a robust REST API backend and a responsive React frontend. 
+    id: "smartcheff-ai",
+    title: "SmartcheFF — AI Recipe Generator",
+    subtitle: "AI-Powered Recipe Recommendation & Cooking Guidance Platform",
+    description: "An AI-powered web application that recommends recipes based on available ingredients using Google Gemini AI. Features a responsive frontend, Node.js/Express backend for AI dish suggestions & step-by-step recipes, YouTube video integration, and Vercel deployment.",
+    longDescription: `SmartcheFF is an AI-powered recipe recommendation web application designed to help users generate customized dishes and step-by-step recipes using available ingredients.
 
 Features built into the architecture:
-• Authentication & Authorization: Secure user registration, login with JWT, role-based access control (User & Admin).
-• Catalog & Discovery: Product listings with category filters, dynamic search, price sorting, and detailed product pages.
-• Shopping Workflow: Interactive cart management, wishlist curation, and checkout process for simulated orders.
-• Social & Feedback: Product review ratings and customer feedback threads.
-• Admin Portal: Full CRUD operations for managing products, categories, user accounts, and monitoring orders.`,
+• AI Recipe Generation: Integrated Google Gemini AI to analyze user-input ingredients and generate tailored recipe recommendations.
+• Step-by-Step Cooking Instructions: Provides structured cooking guides, ingredient breakdowns, and detailed preparation steps.
+• Video Search Guidance: Dynamically generates YouTube search links for video-based cooking tutorials and visual guidance.
+• Responsive Web Interface: Clean, user-friendly UI built with HTML5, CSS3, and modern JavaScript for seamless experiences across devices.
+• Scalable Express Backend: Node.js & Express REST API server acting as an API gateway for Gemini AI integration.
+• Vercel Deployment: Deployed and hosted on Vercel for fast response times and high availability.`,
     featured: true,
-    category: "Full Stack",
+    category: "Full Stack / AI Web App",
     role: "Full Stack Developer",
     technologies: [
-      "React.js",
+      "Google Gemini AI",
       "Node.js",
       "Express.js",
-      "MongoDB",
-      "REST API",
-      "JWT Auth",
-      "Bootstrap / Tailwind",
-      "Postman"
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "YouTube Search API",
+      "Vercel",
+      "REST API"
     ],
-    // High-resolution dark tech aesthetic preview image
-    image: "https://images.unsplash.com/photo-1556742049-0a67daf64f42?q=80&w=1200&auto=format&fit=crop",
-    github: "https://github.com/sumitkarad07",
+    // High-resolution culinary tech preview image
+    image: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=1200&auto=format&fit=crop",
+    github: "https://github.com/sumitkarad07/smartcheff",
     demo: "#", // Add live URL when deployed
     architecture: {
-      frontend: "React.js SPA with state management, modular components, and responsive grid system.",
-      backend: "Node.js & Express REST API server with custom middleware and error handling.",
-      database: "MongoDB document store with Mongoose schemas for Users, Products, Orders, and Reviews."
+      frontend: "Responsive web interface built with HTML5, CSS3, and modern JavaScript.",
+      backend: "Node.js & Express REST API server acting as API gateway for Gemini AI integration.",
+      database: "Google Gemini AI generative engine with YouTube video search link integration."
     },
     highlights: [
-      "User Authentication & JWT Tokens",
-      "Product Catalog & Category Filtering",
-      "Cart & Order Management",
-      "User Reviews & Wishlist Functionality",
-      "Admin Panel for Products & User Roles",
-      "RESTful API & MongoDB Integration"
+      "Google Gemini AI Integration",
+      "Ingredient-Based Recipe Recommendation",
+      "Step-by-Step Cooking Instructions",
+      "Node.js & Express API Gateway",
+      "YouTube Video Guidance Links",
+      "Vercel Cloud Deployment"
     ]
   }
 ];
